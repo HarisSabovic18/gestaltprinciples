@@ -1,0 +1,36 @@
+body {
+  background-color: coral;
+  margin: 0 auto;
+  padding: 0;
+  width: 900px;
+}
+
+div.circle {
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: black;
+    border: 0;
+    display: inline-block;
+    float: left;
+    z-index: 0;
+}
+
+div.square {
+    padding: 0;
+    height: 400px;
+    width: 400px;
+    z-index: 1;
+    background-color: coral;
+    position: absolute;
+}
+
+#sq1 {
+    margin: 100px;
+}
+
+#sq2 {
+    margin: 400px;
+}

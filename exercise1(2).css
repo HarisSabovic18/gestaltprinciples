@@ -1,0 +1,114 @@
+body {
+  background-color: coral;
+  margin: 0 auto;
+  padding: 0;
+  width: 900px;
+  height: 1300px;
+}
+.container {
+  border: 10px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle1left {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  margin: 190px;
+
+}
+.circle2left {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 200px;
+  top: 250px;
+  margin: 190px;
+}
+.circle3left {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  margin: 190px;
+}
+.circle4left {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 200px;
+  top: 550px;
+  margin: 190px;
+}
+.circle5left {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 300px;
+  top: 700px;
+  margin: 190px;
+}
+.circle1right {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  margin: 190px;
+}
+.circle2right {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 700px;
+  top: 250px;
+  margin: 190px;
+}
+.circle3right {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 800px;
+  top: 400px;
+  margin: 190px;
+}
+.circle4right {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 700px;
+  top: 550px;
+  margin: 190px;
+}
+.circle5right {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 600px;
+  top: 700px;
+  margin: 190px;
+}

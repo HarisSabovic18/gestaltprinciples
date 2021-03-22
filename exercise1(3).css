@@ -1,0 +1,33 @@
+body {
+  background-color: coral;
+  margin: 0 auto;
+  padding: 0;
+  width: 900px;
+}
+#cross {
+   width: 1000px;
+   height: 1000px;
+   position: relative;
+  transform:rotate(45deg);
+}
+
+#cross:before, #cross:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: black;
+}
+
+#cross:before {
+  left: 50%;
+  width: 10%;
+  margin-left: -5%;
+  height: 100%;
+}
+
+#cross:after {
+  top: 50%;
+  height: 10%;
+  margin-top: -5%;
+  width: 100%;
+}
